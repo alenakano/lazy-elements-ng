@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "cd server && npm start",
     "build": "ng build --single-bundle --prod --output-hashing none",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "install": "cd server && npm install"
   },
   "private": true,
   "dependencies": {
